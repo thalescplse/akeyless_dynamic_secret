@@ -14,7 +14,7 @@ jobs:
         with:
           access-id: '${{ secrets.ACCESS_ID }}'
           dynamic-secrets: |
-            - name: "/github_actions/postgres_DS"
+            - name: "/jenkins/"
               output-name: "postgres_dynamic_secret"
           access-type: jwt
           export-secrets-to-outputs: true
